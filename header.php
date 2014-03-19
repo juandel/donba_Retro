@@ -14,4 +14,4 @@
     <!-- Custom styles for this template -->
   </head>
   <body>
-    <div class="container">
+  <?  echo "<div class='container ".$link."'>"?>

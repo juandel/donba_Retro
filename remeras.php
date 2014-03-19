@@ -2,7 +2,7 @@
 		function remeras_index(){
 			$remeras = array("Francia"=>"francia.png", "Inglaterra"=>"Inglaterra.png", "Italia"=>"Italia.png");
 			foreach ($remeras as $key => $value) { 
-				echo "<div class='col-xs-6 col-sm-4'><div class='thumbnail'><img src='images/".$value."' class='img-responsive'><h4>".$key."<h4></div></div>";
+				echo "<div class='col-xs-6 col-sm-4'><div class='thumbnail'><img src='images/".$value."' class='img-responsive'><h5>".$key."<h5></div></div>";
 			}
 		}
 		function remeras_personalizadas(){

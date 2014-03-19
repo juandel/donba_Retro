@@ -6,20 +6,20 @@
 ?>	
 
 
-<div class="row" id="cual">
-	<h2 class="title">CUAL VAS A LLEVAR ?</h2>	
-	<div class="row" id="listado">
-		<div class="col-sm-6 col-sm-offset-3">
-			<ul class="col-xs-6">
-				<li class='title'><h4>SELECCIONES</h4></li>
+<div class="row prima">
+	<h2>CUAL VAS A LLEVAR ?</h2>	
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<ul class="col-xs-4">
+				<li><h4>SELECCIONES</h4></li>
 			<?php 
 				foreach ($linksSelecciones as $nombre => $value) {
 					echo "<li><a href='camisetas_.php?pais=".$value."'>".$nombre."</a></li>";
 				}
 			?>
 			</ul>
-			<ul class="col-xs-6">
-				<li class='title'><h4>EQUIPOS</h4></li>
+			<ul class="col-xs-4 col-xs-offset-4">
+				<li><h4>EQUIPOS</h4></li>
 			<?php 						
 				foreach ($linksEquipos as $nombre => $value) {
 					echo "<li><a href='camisetas_.php?pais=".$value."'>".$nombre."</a></li>";
@@ -29,12 +29,13 @@
 		</div>
 	</div>
 </div>
-<div class="row">
-	<h2 class="title">PERSONALIZADAS</h2>
+
+<div class="row duo">
+	<h2>PERSONALIZADAS</h2>
 	<div class="row">
-		<h5 class="col-xs-8 col-xs-offset-2">Te animas a personalizar alguna Retro a tu gusto ?</h5>
+		<h3 class="col-xs-8 col-xs-offset-2">Te animas a personalizar alguna Retro a tu gusto ?</h3>
 	</div>
-	<div class="remeras row">
+	<div class="row">
 	<?php 
 	remeras_personalizadas();
 	?>
