@@ -10,7 +10,7 @@
 <div class="jumbotron">
 	<img <?php echo ("src='images/sliderIndex-".$num.".jpg'");?>>
 </div>
-<?php if ($link=='index'|| (!isset($link))) {
+<?php if ($link=='home') {
 	include 'home.php';
 }elseif ($link=='seleccion') {
 	include 'seleccion_.php';

@@ -8,7 +8,7 @@
 		casaca.
 		</p>
 		<img class="img-responsive" src="images/fonts.png">
-		<h3>CONTACTANOS YA!</h3>
+		<h3><a href="index.php?link=contacto&num=04">CONTACTANOS YA!</a></h3>
 	</div>
 	<img class="img-responsive col-sm-6" src="images/pencilLogo.png">
 </div>	

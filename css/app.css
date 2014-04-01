@@ -4,8 +4,7 @@ body {
     margin: 0; }
   body .container {
     background-color: white;
-    width: 80%;
-    margin: 30px auto;
+    margin-top: 40px;
     padding: 0;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -68,10 +67,10 @@ body {
       font-family: sans-serif, Trebuchet MS;
       background-size: 1223px;
       background-image: url("../images/DonbaRetroIndexSprite.png");
-      height: 2em;
+      height: 55px;
       width: 100%;
       background-position: -47px -391px;
-      line-height: 1.85em;
+      line-height: 2.5em;
       padding: 0 0 0 20px;
       margin: 0 0 0 0;
       font-size: 1.3em; }
@@ -108,11 +107,11 @@ body {
     body .container #map-canvas {
       height: 600px;
       width: 100%; }
-  body .index .duo {
+  body .home .duo {
     background-color: beige; }
-    body .index .duo div div {
-      padding-top: 60px; }
-    body .index .duo img {
+    body .home .duo div div {
+      padding: 30px 0; }
+    body .home .duo img {
       margin: 0 auto;
       display: block; }
   body .seleccion .prima {
