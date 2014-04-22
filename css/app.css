@@ -121,6 +121,8 @@ body {
       padding: 40px 0; }
       body .seleccion .prima .row h4 {
         font-size: 1.7em; }
+      body .seleccion .prima .row ul li {
+        width: 150px; }
   body .seleccion .duo p {
     text-align: center;
     font-size: 1.2em;
