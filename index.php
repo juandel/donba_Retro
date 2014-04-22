@@ -3,9 +3,11 @@
 	$num=$_GET['num'];
 	if(!isset($num)) { $num="01"; }
 ?>
-<?php include 'remeras.php'; ?>
-<?php include 'header.php'; ?>
-<?php include 'nav.php'; ?>
+<?php include 'remeras.php'; 
+	include 'header.php';
+	include 'nav.php'; 
+	require_once 'Swift-5.1.0/lib/swift_required.php';
+?>
 
 <div class="jumbotron">
 	<img <?php echo ("src='images/sliderIndex-".$num.".jpg'");?>>
@@ -16,6 +18,8 @@
 	include 'seleccion_.php';
 }elseif ($link=='personalizadas') {
 	include 'personalizadas_.php';
+}elseif($link=='camisetas'){
+	include 'camisetas_.php';
 }elseif($link=='contacto'){
 	include 'contacto_.php';
 }?>

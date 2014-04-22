@@ -17,4 +17,4 @@
   <?  if(!isset($link)){
     $link='home';
   }
-  echo "<div class='container ".$link." col-xs-12 col-md-8 col-md-offset-2'>"?>
+  echo "<div class='container ".$link." col-xs-12 col-md-8 col-lg-6'>"?>

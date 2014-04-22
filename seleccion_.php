@@ -1,11 +1,3 @@
-<?php
-	$linksSelecciones=array('America del norte'=>'america1','America del sur'=>'america2',
-		'Europa'=>'europa','Africa'=>'africa','Asia'=>'asia');
-	$linksEquipos=array('San lorenzo'=>'america1','Boca'=>'america2',
-		'River'=>'europa','Racing'=>'africa','Velez'=>'asia');
-?>	
-
-
 <div class="row prima">
 	<h2>CUAL VAS A LLEVAR ?</h2>	
 	<div class="row">
@@ -14,7 +6,7 @@
 				<li><h4>SELECCIONES</h4></li>
 			<?php 
 				foreach ($linksSelecciones as $nombre => $value) {
-					echo "<li><a href='camisetas_.php?pais=".$value."'>".$nombre."</a></li>";
+					echo "<li><a href='index.php?link=camisetas&num=01&pais=".$value."'>".$nombre."</a></li>";
 				}
 			?>
 			</ul>
@@ -22,8 +14,8 @@
 				<li><h4>EQUIPOS</h4></li>
 			<?php 						
 				foreach ($linksEquipos as $nombre => $value) {
-					echo "<li><a href='camisetas_.php?pais=".$value."'>".$nombre."</a></li>";
-				} 
+					echo "<li><a href='index.php?link=camisetas&num=01&equipos=".$value."'>".$nombre."</a></li>";
+				}
 			?>
 			</ul>
 		</div>

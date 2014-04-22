@@ -2,7 +2,13 @@
   <h2 class="title">LAS DESTACADAS !</h2> 
   <div class="row">
   <?php 
-  remeras_index();
+
+  shuffle_assoc($remeras);
+  $sliceRemeras=array_slice($remeras, 0,6, true);
+  foreach ($sliceRemeras as $key => $value) { 
+  echo "<div class='col-xs-6 col-sm-4'><div class='thumbnail'><img src='images/".$value."' class='img-responsive'><h5>".$key."<h5></div></div>";
+  }
+
   ?>
   </div>
   <div class="jumbotron">
